@@ -1,0 +1,123 @@
+.sepsquaresetwidth2sm.countdownHolder{
+	max-width:450px !important;
+	margin:0 auto !important;
+	font:40px/1.5 'Open Sans Condensed',sans-serif !important;
+	text-align:center !important;
+	letter-spacing:-3px !important;
+}
+.sepsquaresetwidth2sm .position{
+	display: inline-block !important;
+	height: 60px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	width: 60px !important;
+	float:left;
+	
+}
+.sepsquaresetwidth2sm .digit{
+	position:relative !important;
+	display:block !important;
+	width:59px !important;
+	height:59px !important;
+	/*width:1em !important;*/
+	/*background-color:#444 !important;*/
+	text-align:center !important;
+	/*color:#fff !important;*/
+	letter-spacing:-1px !important;
+	font-size:34px !important;
+}
+.sepsquaresetwidth2sm .col-md-2{
+padding-left:0px !important;
+padding-right:0px !important;
+}
+.sepsquaresetwidth2sm .col-md-offset-1{
+margin-left:1% !important;
+}
+
+.sepsquaresetwidth2sm .col-md-2
+{
+	width:23% !important;
+}
+.sepsquaresetwidth2sm .digitleft{
+text-align:left !important;
+}
+.sepsquaresetwidth2sm .digitright{
+	text-align:right !important;
+}
+.sepsquaresetwidth2sm .digit.static{
+	/*box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35) !important;*/
+	
+	/*background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, #3A3A3A),
+		color-stop(0.5, #444444)
+	) !important;*/
+}
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+.sepsquaresetwidth2sm .countDays{ margin-left:2.8% !important; }
+
+.sepsquaresetwidth2sm .countaligns{
+	 height: 82px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	max-width: 120px !important;
+	margin:0 auto !important;
+	/*border-radius:0.2em !important;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35) !important;*/
+	
+ }
+ .sepsquaresetwidth2sm .position2{
+	/*height: 30px !important;*/
+	overflow: hidden !important;
+	position: relative !important;
+	width: 120px !important;
+	display:block !important;
+	height: 22px !important;
+	font-size:14px !important;
+	letter-spacing:1px !important;
+	clear:both !important;
+}
+.sepsquaresetwidth2sm{
+padding-top:15px !important;
+}
+@media only screen and (max-width : 767px) {
+.sepsquaresetwidth2sm.countdownHolder{
+	padding-top:8px !important;
+}
+.sepsquaresetwidth2sm .position{
+	height: 30px !important;
+	width: 30px !important;
+}
+.sepsquaresetwidth2sm .digit{
+	width:29px !important;
+	height:29px !important;
+	font-size:16px !important;
+}
+.sepsquaresetwidth2sm .countaligns{
+	 height: 55px !important;
+	max-width: 60px !important;
+	
+ }
+  
+.sepsquaresetwidth2sm .countDays{ margin-left:4% !important; }
+.sepsquaresetwidth2sm{
+padding-top:0px !important;
+}
+.sepsquaresetwidth2sm .position2{
+	/*top:-32px;*/
+	width:60px !important;
+	font-size:12px !important;
+	letter-spacing:1px !important;
+}
+}

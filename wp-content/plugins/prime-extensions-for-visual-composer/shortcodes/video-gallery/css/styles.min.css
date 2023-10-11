@@ -1,0 +1,591 @@
+#primeBox {
+    /* all player text color */
+    color: #595959;
+    border: 1px solid rgba(26, 39, 38, 0.22);
+
+    -webkit-box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+    -moz-box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+    box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+}
+
+#primeControls {
+    /* control bar color */
+    background-color: #fff;
+}
+
+.prime-infobox {
+    /* color for the infoBox, containing the video's title */
+    background-color: #fff;
+}
+
+.prime-desc {
+    /* color of the description background */
+    background-color: #fff;
+}
+
+.mQuery900 #primeList {
+    /* background and border-color for the right-side video gallery list */
+    border: 10px solid #FFF;
+    background-color: #f2f2f2;
+}
+
+.mQuery900 .primeThumb {
+    /* text-color for each list item on the right-side list (when present) */
+    color: #595959;
+}
+
+.mQuery900 .primeCurrentVideo {
+    /* background-color for the current video playing highlighted in the right-side list */
+    background-color: #e2e2e2;
+}
+
+.primeThumb {
+    /* text-color when it's not side list */
+    color: #fff;
+}
+
+.prime-overlay {
+    /* color for - thumbnail image overlay when hovered */
+    background-color: rgba(23, 35, 34, 0.74902);
+}
+
+.primeUIbtn:hover {
+    /* color for control bar buttons when hovered */
+    color: #00bcd4;
+}
+
+/* == GALLERY LIST SCROLLBAR COLORS (grey colors scheme) == */
+#primeBox *::-webkit-scrollbar-track {
+    background-color: #F4F4F4;
+}
+
+#primeBox *::-webkit-scrollbar {
+    background: #F4F4F4;
+}
+
+#primeBox *::-webkit-scrollbar-thumb {
+    background: #dad7d7;
+    border: 2px solid #F4F4F4;
+}
+
+/* == THUMBNAIL BORDER FILL, ON HOVER EFFECT - COLORS (blue color) == */
+#primeBox:not(.mQuery900) .primeThumb:before {
+    background-color: #27ae60;
+}
+
+#primeBox:not(.mQuery900) .primeThumb:after {
+    background-color: #27ae60;
+}
+
+#primeBox:not(.mQuery900) .prime-overlay:after {
+    background-color: #27ae60;
+}
+
+#primeBox:not(.mQuery900) .prime-overlay:before {
+    background-color: #27ae60;
+}
+
+/* == Player Background Logo Image == */
+.mQuery900 .prime-videowrapper {
+    background: rgba(23, 35, 34, 0.74902) url("../images/gold-developer-logo.png") no-repeat center;
+    background-size: 100px;
+}
+
+/* ==============================================
+=== END OF - MODIFY YOUR PLAYER'S COLORS HERE ===
+============================================== */
+
+#primeBox *, #primeBox *:after, #primeBox *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.primeClearfix {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+}
+
+.primeFloatLeft {
+    float: left;
+}
+
+.primeFloatRight {
+    float: right;
+}
+
+/* Gallery list scrollbar */
+#primeBox *::-webkit-scrollbar {
+    width: 12px;
+}
+
+#primeBox *::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+}
+
+#primeBox {
+    max-width: 900px;
+    font-family: sans-serif;
+    margin: 0 auto;
+    position: relative;
+}
+
+.primeTitleFix {
+    text-align: center;
+}
+
+.prime-mainvideo {
+    position: relative;
+    padding-bottom: 53.45%;
+    padding-top: 25px;
+    height: 0;
+}
+
+.prime-mainvideo iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.prime-mainvideo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important; /* auto */
+}
+
+.prime-title {
+    font-weight: normal;
+    margin: 0;
+    padding: 0.5em;
+    font-size: 1.4em;
+}
+
+#primeList li {
+    display: inline-block;
+    *display: inline; /*for IE6 - IE7*/
+    width: 25%;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* The wrapper for each item */
+.primeThumb {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.primeThumb .prime-overlay, .primeThumb .primepre-title, .primeThumb img {
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+#primeList {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    display: block;
+    font-size: 0;
+}
+
+.primeThumb {
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.primeThumb img {
+    width: 100%;
+    height: auto;
+    -webkit-backface-visibility: hidden;
+}
+
+.prime-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+}
+
+#primeBox:not(.mQuery900) .prime-youtube .prime-overlay {
+    background: rgba(23, 35, 34, 0.74902) url("../images/youtube-icon.png") no-repeat 94% 90%;
+    background-size: 35px auto;
+}
+
+#primeBox:not(.mQuery900) .prime-vimeo .prime-overlay {
+    background: rgba(23, 35, 34, 0.74902) url("../images/vimeo-icon.png") no-repeat 95% 88%;
+    background-size: 35px auto;
+}
+
+#primeBox:not(.mQuery900) .prime-dailymotion .prime-overlay {
+    background: rgba(23, 35, 34, 0.74902) url("../images/dailyMotion-icon.png") no-repeat 95% 87%;
+    background-size: 35px auto;
+}
+
+#primeBox:not(.mQuery900) .prime-htmlvideo .prime-overlay {
+    background: rgba(23, 35, 34, 0.74902) url("../images/html5-icon.png") no-repeat 95% 87%;
+    background-size: 35px auto;
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover .prime-overlay {
+    opacity: 1;
+}
+
+#primeBox:not(.mQuery900) .primepre-title {
+    position: absolute;
+    color: #fff;
+    padding: 15px 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: initial;
+    text-align: left;
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover .primepre-title {
+    opacity: 1;
+    transform: scale(1);
+    /*text-shadow: 0px 0px 10px #3DC0F1;*/
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover img {
+    transform: scale(1.2);
+}
+
+.primeThumb-wrapper {
+    overflow: hidden;
+}
+
+#primeBox:not(.mQuery900) .primeThumb:before {
+    position: absolute;
+    width: 0;
+    height: 4px;
+    content: '';
+    top: 0;
+    left: 0;
+    transition: 100ms width ease 300ms;
+    -web-kit-transition: 100ms width ease 300ms;
+    z-index: 1;
+}
+
+#primeBox:not(.mQuery900) .primeThumb:after {
+    position: absolute;
+    width: 4px;
+    height: 0;
+    content: '';
+    top: 0;
+    right: 0;
+    transition: 100ms height ease 200ms;
+    -web-kit-transition: 100ms height ease 200ms;
+}
+
+#primeBox:not(.mQuery900) .prime-overlay:after {
+    position: absolute;
+    width: 0;
+    height: 4px;
+    content: '';
+    bottom: 0;
+    right: 0;
+    transition: 100ms width ease 100ms;
+    -web-kit-transition: 100ms width ease 100ms;
+}
+
+#primeBox:not(.mQuery900) .prime-overlay:before {
+    position: absolute;
+    width: 4px;
+    height: 0;
+    content: '';
+    bottom: 0;
+    left: 0;
+    transition: 100ms height ease 0ms;
+    -web-kit-transition: 100ms height ease 0ms;
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover {
+    border-color: transparent;
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover:before {
+    width: 100%;
+    transition: 100ms width ease 0ms;
+    -web-kit-transition: 100ms width ease 0ms;
+    /*box-shadow: 0px 1px 10px 1px #3DC0F1;*/
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover:after {
+    height: 100%;
+    transition: 100ms height ease 100ms;
+    -web-kit-transition: 100ms height ease 100ms;
+    /*box-shadow: 0px 1px 10px 1px #3DC0F1;*/
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover .prime-overlay:after {
+    width: 100%;
+    transition: 100ms width ease 200ms;
+    -web-kit-transition: 100ms width ease 200ms;
+    /*box-shadow: 0px 1px 10px 1px #3DC0F1;*/
+}
+
+#primeBox:not(.mQuery900) .primeThumb:hover .prime-overlay:before {
+    height: 100%;
+    transition: 100ms height ease 300ms;
+    -web-kit-transition: 100ms height ease 300ms;
+    /*box-shadow: 0px 1px 10px 1px #3DC0F1;*/
+}
+
+#primeBox:not(.mQuery900) #primeList {
+    background-color: #000;
+}
+
+#primeBox:not(.mQuery900) .prime-desc {
+    width: 100%;
+}
+
+.prime-infobox {
+    clear: both;
+    padding: 0 10px;
+    /* fix for description overlay */
+    z-index: 2;
+    position: relative;
+}
+
+.primeDescr-wrapper {
+    display: none;
+    opacity: 0.9;
+}
+
+.prime-desc {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 65%;
+    padding: 85px 35px;
+    z-index: 1;
+    display: none;
+}
+
+.primeThumb img:not([Data-anchor]) {
+    display: none;
+}
+
+.primeCustomThumb {
+    display: none;
+}
+
+.primepre-desc {
+    display: none;
+}
+
+#primeControls {
+    z-index: 2;
+    position: relative;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.primeUIbtn {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px 6px;
+    border-radius: 5px;
+}
+
+.primeThumb, .primeUIbtn {
+    cursor: pointer;
+}
+
+/* =============================
+=== jQuery 900 Media Queries ===
+============================= */
+.mQuery900 .prime-player {
+    float: left;
+    width: 65%;
+}
+
+.mQuery900 .prime-mainvideo {
+    padding-bottom: 52.05%;
+}
+
+.mQuery900 #primeList {
+    float: right;
+    width: 35%;
+    height: 300px;
+    overflow: auto;
+    transition: height .2s ease, box-shadow .2s ease;
+    text-transform: lowercase;
+    z-index: 3;
+    position: relative;
+}
+
+.mQuery900 #primeList:hover {
+    -webkit-box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+    -moz-box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+    box-shadow: 0 0 12px rgba(58, 51, 46, 0.26);
+}
+
+.mQuery900 #primeList li {
+    width: 100%;
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.mQuery900 .primeCurrentVideo {
+    font-weight: 600;
+}
+
+.mQuery900 #primeList li:hover {
+    background: #e2e2e2;
+}
+
+.mQuery900 #primeList li:not(:last-child) {
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/* logo background */
+.mQuery900 .prime-videowrapper {
+    min-height: 200px;
+}
+
+.mQuery900 .primeThumb-wrapper {
+    float: left;
+    width: 30%;
+}
+
+.mQuery900 .primeThumb {
+    text-align: initial;
+}
+
+.mQuery900 .primepre-title {
+    float: right;
+    width: 70%;
+    padding-left: 10px;
+    font-size: initial;
+}
+
+.mQuery900 .primepre-title:first-letter {
+    text-transform: uppercase;
+}
+
+.mQuery900 .primeThumb:hover .prime-overlay {
+    display: none;
+}
+
+/* =============================
+=== jQuery 700 Media Queries ===
+============================= */
+.mQuery700 .prime-mainvideo {
+    padding-bottom: 52.50%;
+}
+
+.mQuery700 #primeList li {
+    width: 33.33%;
+}
+
+.mQuery700 #primeBox {
+    width: 100%;
+    max-width: 100%;
+    font-size: 100%;
+}
+
+.mQuery700 .prime-title {
+    font-size: 1.5em;
+}
+
+.mQuery700 .primepre-title {
+    font-size: 23px;
+}
+
+/* =============================
+=== jQuery 550 Media Queries ===
+============================= */
+.mQuery550 .prime-mainvideo {
+    padding-bottom: 49%;
+}
+
+.mQuery550 .prime-title {
+    font-size: 1.17em;
+}
+
+.mQuery550 #primeList li {
+    width: 50%;
+}
+
+.mQuery550 .primecloseBtn {
+    font-size: 200%;
+    line-height: 100%;
+    position: initial;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+@media (max-width: 900px) {
+    #prime-zoom {
+        display: none;
+    }
+}
+
+/* Unicode Icons */
+.iconazble {
+    font-style: normal;
+    font-family: icons; /* BYO icon font, mapped smartly */
+    speak: none; /* Not to be trusted, but hey. */
+}
+
+.iconazble:before {
+    vertical-align: middle;
+}
+
+.iconazble.ic-times:before {
+    content: "×";
+    font-size: 165%;
+}
+
+.iconazble.ic-resize:before {
+    content: "⛶";
+}
+
+.iconazble.ic-question-equal:before {
+    content: "≟";
+}
+
+.iconazble.ic-question-vai:before {
+    content: "꘏";
+}
+
+.iconazble.ic-question-ethiopic:before {
+    content: "፧";
+}
+
+.primefire-desc {
+    display: none;
+}
+.prime-infobox h3 {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}

@@ -1,0 +1,6 @@
+.single-post-content .sepsquaresetwidth .position2,.single-post-content .sepsquaresetwidthmed .position2,.single-post-content .sepsquaresetwidthsm .position2,.single-post-content .squaresetwidth .position2,.single-post-content .squaresetwidthmed .position2,.single-post-content .squaresetwidthsm .position2{
+	position: static !important;
+}
+.inlinedivscen .position2{
+	position: relative !important;
+}

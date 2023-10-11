@@ -1,0 +1,173 @@
+.squaresetwidthmed.countdownHolder{
+	width:100% !important;
+	margin:0 auto !important;
+	font: 40px/1.5 'Open Sans Condensed',sans-serif !important;
+	text-align:center !important;
+	letter-spacing:-3px !important;
+	
+}
+.squaresetwidthmed .position{
+	display: inline-block !important;
+	height: 50px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	width: 25px !important;
+}
+.squaresetwidthmed .position2{
+	/*height: 30px !important;*/
+	overflow: hidden !important;
+	position: relative !important;
+	width: 65px !important;
+	top:-40px;
+}
+.squaresetwidthmed .namedesc{
+	display: inline-block !important;
+	height: 30px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	width: 75px !important;
+	font-size:20px !important;
+	letter-spacing:1px !important;
+	padding-bottom:10px !important;
+	font-size:16px !important;
+}
+@media only screen
+and (max-width : 1024px) {
+.squaresetwidthmed .namedesc{
+	padding-bottom:30px !important;
+}
+}
+.squaresetwidthmed .col-md-2{
+padding-left:0px !important;
+padding-right:0px !important;
+}
+.squaresetwidthmed .col-md-offset-1{
+margin-left:1% !important;
+}
+.squaresetwidthmed .col-md-2
+{
+	width:23% !important;
+}
+.squaresetwidthmed .countDays{ margin-left:2.6% !important; }
+.squaresetwidthmed .digitleft{
+text-align:left !important;
+}
+.squaresetwidthmed .digitright{
+	text-align:right !important;
+}
+.squaresetwidthmed .digit{
+	position:absolute !important;
+	display:block !important;
+	width:25px !important;
+	/*background-color:#444 !important;*/
+	
+	/*text-align:center !important;
+	color:#fff !important;*/
+	letter-spacing:-1px !important;
+	height:40px !important;
+	/*padding-top:10px !important;*/
+	font-size:32px !important;
+}
+.squaresetwidthmed .countDivs{
+width:20px !important;
+}
+.squaresetwidthmed .digit.static{
+	
+	
+	/*background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%) !important;
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, #3A3A3A),
+		color-stop(0.5, #444444)
+	) !important;*/
+}
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+.squaresetwidthmed .countalign{
+	 height: 85px !important;
+	overflow: hidden !important;
+	position: relative !important;
+	max-width: 75px !important;
+	margin:0 auto !important;
+	/*border-radius:0.2em !important;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35) !important;*/
+	
+ }
+ 
+.squaresetwidthmed .countDays,.squaresetwidthmed .countHours,.squaresetwidthmed .countMinutes,.squaresetwidthmed .countSeconds{
+ margin-bottom:15px !important;
+ }
+.squaresetwidthmed .countDiv0{ /* display:none !important !important;*/ }
+
+.squaresetwidthmed .countDiv:before,
+.squaresetwidthmed .countDiv:after{
+	position:absolute !important;
+	width:5px !important;
+	height:5px !important;
+	background-color:#444 !important;
+	border-radius:50% !important;
+	left:50% !important;
+	margin-left:-3px !important;
+	top:0.5em !important;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.5) !important;
+	content:'' !important;
+}
+.squaresetwidthmed .countDiv:after{
+	top:0.9em !important;
+}
+.squaresetwidthmed {
+padding-top:15px !important;
+/*background-color:#FFFF00 !important;*/
+}
+@media only screen and (max-width : 767px) {
+.squaresetwidthmed .position{
+	height: 40px !important;
+	width: 15px !important;
+}
+.squaresetwidthmed .namedesc{
+	width: 60px !important;
+}
+.squaresetwidthmed .digit{
+	width:15px !important;
+	height:30px !important;
+	font-size:20px !important;
+}
+.squaresetwidthmed .countalign{
+	 height: 60px !important;
+max-width: 60px !important;
+	/*border-radius:0.2em !important;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35) !important;*/
+	
+ }
+  
+.squaresetwidthmed .namedesc{
+	font-size:10px !important;
+}
+.squaresetwidthmed .countDays{ margin-left:4% !important; }
+.squaresetwidthmed{
+padding-top:5px !important;
+}
+.squaresetwidthmed .digit.static{
+padding-top:0px !important;
+}
+.squaresetwidthmed .position2{
+	top:-37px;
+}
+}
+@media only screen and (max-device-width : 767px) {
+.squaresetwidthmed .position2{
+	top:-37px;
+}
+}
+/*.countdownHolder,.countdownHolder *,.countdownHolder *:before,.countdownHolder *:after {
+    box-sizing: border-box !important;
+}*/

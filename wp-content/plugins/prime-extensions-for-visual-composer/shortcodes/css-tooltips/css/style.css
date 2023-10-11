@@ -1,0 +1,313 @@
+/*	--------------------------------------------------
+	:: Tooltip
+	-------------------------------------------------- */
+	
+	.prime-tooltips p {
+        font-style:normal; 
+	    font-weight:normal; 
+	    font-family:"Open Sans"; 
+	    font-size:13px;
+		color:#000;
+		line-height:20px;
+    }
+	
+	.prime-tooltips a {
+	    text-decoration:underline;
+        font-style:normal; 
+	    font-weight:normal; 
+	    font-family:"Open Sans"; 
+	    font-size:13px;
+		color: #000000 !important;
+		line-height:20px;
+    }
+	
+	.prime-tooltip {
+        position:relative;
+        display:inline-block;
+    }
+	
+	.prime-tooltip:before,
+	.prime-tooltip:after {
+        position:absolute;
+        visibility:hidden;
+        opacity:0;
+        z-index:99999;
+		text-decoration:none;
+        pointer-events:none;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+	}
+	
+	.prime-tooltip:hover:before, 
+	.prime-tooltip:hover:after {
+        visibility:visible;
+	    opacity:1;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+	}
+	
+    .prime-tooltip:before{
+        content:'';
+        position:absolute;
+        z-index:999999;  
+	}
+	
+    .prime-tooltip:after {
+        content:attr(data-tooltip);
+		position:absolute;
+		font-style:normal; 
+	    font-weight:normal; 
+	    font-family:"Open Sans"; 
+	    font-size:13px;
+		color:#fff;
+		background-color:#111;
+		outline:none;
+		text-decoration:none;
+		box-shadow:none;
+		margin:0 auto;
+        padding:10px 15px;
+        line-height:20px;
+		white-space:nowrap;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+	}
+	
+/*	--------------------------------------------------
+	:: Tooltip Left
+	-------------------------------------------------- */
+
+	.prime-tooltip.prime-left:before { 
+	    left:5%;
+		top:8px;
+	    border-top:5px solid transparent;
+	    border-bottom:5px solid transparent;
+	    border-left:5px solid #111; 
+	}
+	
+	.prime-tooltip.prime-left:after{
+	    right:95%;
+		top:-6px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-left:hover:before {
+	    left:-10%;
+		top:8px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-left:hover:after {
+	    right:110%;
+		top:-6px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+/*	--------------------------------------------------
+	:: Tooltip Right
+	-------------------------------------------------- */
+	
+	.prime-tooltip.prime-right:before {
+        right:5%;	
+	    top:8px;
+	    border-top:5px solid transparent;
+	    border-right:5px solid #111;
+	    border-bottom:5px solid transparent; 
+	}
+	
+	.prime-tooltip.prime-right:after{
+	    left:95%;
+		top:-6px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-right:hover:before {
+	    right:-10%;
+		top:8px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-right:hover:after {
+	    left:110%;
+		top:-6px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+/*	--------------------------------------------------
+	:: Tooltip Top Left
+	-------------------------------------------------- */
+	
+	.prime-tooltip.prime-topLeft:before { 
+	    left:7px;
+	    top:-9px;
+	    border-top:5px solid #111;
+	    border-right:5px solid transparent;
+	    border-left:5px solid transparent;
+	}
+	
+	.prime-tooltip.prime-topLeft:after{
+	    left:0;
+		bottom:29px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-topLeft:hover:before {
+	    left:7px;
+		top:1px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-topLeft:hover:after {
+	    left:0;
+		bottom:19px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;	
+    }
+	
+/*	--------------------------------------------------
+	:: Tooltip Top Right
+	-------------------------------------------------- */
+
+	.prime-tooltip.prime-topRight:before { 
+	    right:7px;
+	    top:-9px;
+	    border-top:5px solid #111;
+	    border-right:5px solid transparent;
+	    border-left:5px solid transparent;
+	}
+	
+	.prime-tooltip.prime-topRight:after{
+	    right:0;
+		bottom:29px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-topRight:hover:before {
+	    right:7px;
+		top:1px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-topRight:hover:after {
+	    right:0;
+		bottom:19px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;	
+    }
+	
+/*	--------------------------------------------------
+	:: Tooltip Bottom Left
+	-------------------------------------------------- */
+
+	.prime-tooltip.prime-bottomLeft:before { 
+	    left:7px;
+	    bottom:-14px;
+	    border-right:5px solid transparent;
+	    border-bottom:5px solid #111;
+	    border-left:5px solid transparent;
+	}
+	
+	.prime-tooltip.prime-bottomLeft:after{
+	    left:0;
+		top:34px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-bottomLeft:hover:before {
+	    left:7px;
+		bottom:-4px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-bottomLeft:hover:after {
+	    left:0;
+		top:24px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;	
+    }
+
+/*	--------------------------------------------------
+	:: Tooltip Bottom Right
+	-------------------------------------------------- */
+
+	.prime-tooltip.prime-bottomRight:before { 
+	    right:7px;
+	    bottom:-14px;
+	    border-right:5px solid transparent;
+	    border-bottom:5px solid #111;
+	    border-left:5px solid transparent;
+	}
+	
+	.prime-tooltip.prime-bottomRight:after{
+	    right:0;
+		top:34px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-bottomRight:hover:before {
+	    right:7px;
+		bottom:-4px;
+        -webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;
+    }
+	
+	.prime-tooltip.prime-bottomRight:hover:after {
+	    right:0;
+		top:24px;
+		-webkit-transition:all 0.4s ease-in-out;
+           -moz-transition:all 0.4s ease-in-out;
+		     -o-transition:all 0.4s ease-in-out;
+		        transition:all 0.4s ease-in-out;	
+    }

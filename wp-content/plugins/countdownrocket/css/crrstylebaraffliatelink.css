@@ -1,0 +1,77 @@
+body {
+display:none;
+}
+A
+{
+	text-decoration:none;
+}
+
+#crrsettopbootombardiv{
+	margin: 0;
+	padding: 0;
+}
+
+
+#crrsettopbootombardiv
+{
+	/*top:0*/;
+	height:auto;
+	z-index:100000;
+	width:100%;
+}
+
+
+#crrsettopbootombardiv #crrsettopbootombardiv2
+{
+	margin:auto;
+	position:relative;
+}
+
+#crrsettopbootombardiv .container-fluid
+{
+	margin:0;
+	padding:0;
+}
+
+#crrsettopbootombardiv .featured_form
+{
+	margin:0 auto;
+	padding:0;
+}
+
+#crrsettopbootombardiv span
+{
+	margin:0;
+	
+	/*text-align:left;*/
+}
+
+#crrsettopbootombardivdelete{
+	float: right;
+width: 16px;
+position: absolute;
+right: 0;
+height: 100%;
+cursor: pointer;
+}
+.inlinedivs {
+display: inline-block;
+    margin: 0px auto;
+    padding: 0px 5px;
+    text-align: left;
+    vertical-align: middle;
+}
+@media only screen
+and (max-width : 1023px) {
+.inlinedivs {
+font-size:20px !important;
+text-align:center;
+padding-top:3px;
+}
+}
+@media only screen
+and (max-width : 1024px) {
+.inlinedivscen{
+width:100% !important;
+}
+}

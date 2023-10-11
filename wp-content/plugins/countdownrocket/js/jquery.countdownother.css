@@ -1,0 +1,116 @@
+.countdownHolder{
+	width:100%;
+	margin:0 auto;
+	font: 40px/1.5 'Open Sans Condensed',sans-serif;
+	text-align:center;
+	letter-spacing:-3px;
+	
+}
+.position{
+	display: inline-block;
+	/*height: 50px;*/
+	overflow: hidden;
+	/*position: relative;*/
+	padding-top:23px;
+	width: 25px;
+}
+.position2{
+	/*height: 30px;*/
+	overflow: hidden;
+	/*position: relative;*/
+	max-width: 90px;
+	/*top:-40px;*/
+	display:block;
+	margin:0px !important;
+	padding:0px !important;
+}
+.namedesc{
+	display: block;
+	height: 30px;
+	overflow: hidden;
+	/*position: relative;*/
+	max-width: 90px;
+	font-size:20px;
+	letter-spacing:3px;
+	padding-bottom:10px;
+	font-size:16px;
+}
+@media only screen
+and (max-width : 1024px) {
+.namedesc{
+	padding-bottom:30px;
+}
+}
+.col-md-2{
+padding-left:0px !important;
+padding-right:0px !important;
+}
+.col-md-offset-1{
+margin-left:7.33333%;
+}
+.digitleft{
+text-align:left;
+}
+.digitright{
+	text-align:right;
+}
+.digit{
+	/*position:absolute;*/
+	display:block;
+	width:25px;
+	/*background-color:#444;*/
+	
+	/*text-align:center;
+	color:#fff;*/
+	letter-spacing:-1px;
+	height:50px;
+	/*padding-top:10px;*/
+	font-size:32px;
+}
+/*.countDivs{
+width:20px;
+}
+*/
+.digit.static{
+	
+	
+	/*background-image: linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -o-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -moz-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -webkit-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	background-image: -ms-linear-gradient(bottom, #3A3A3A 50%, #444444 50%);
+	
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0.5, #3A3A3A),
+		color-stop(0.5, #444444)
+	);*/
+}
+/**
+ * You can use these classes to hide parts
+ * of the countdown that you don't need.
+ */
+ .countalign{
+	 height: 120px;
+	overflow: hidden;
+	position: relative;
+	max-width: 90px;
+	margin:0 auto;
+	/*border-radius:0.2em;
+	box-shadow:1px 1px 1px rgba(4, 4, 4, 0.35);*/
+	
+ }
+ 
+ .countDays, .countHours, .countMinutes, .countSeconds{
+ margin-bottom:15px;
+ }
+.squaresetwidthmed {
+max-width:600px;
+padding-top:15px;
+/*background-color:#FFFF00;*/
+}
+/*.countdownHolder,.countdownHolder *,.countdownHolder *:before,.countdownHolder *:after {
+    box-sizing: border-box;
+}*/

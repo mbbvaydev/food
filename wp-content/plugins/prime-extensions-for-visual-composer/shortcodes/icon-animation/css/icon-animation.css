@@ -1,0 +1,1125 @@
+/*!
+ * font-awesome-animation - v0.0.9
+ * https://github.com/l-lin/font-awesome-animation
+ * License: MIT
+ */
+@-webkit-keyframes wrench {
+  0% {
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  28% {
+    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  38% {
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  48% {
+    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  58% {
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  68% {
+    -webkit-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  75%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes wrench {
+  0% {
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  20% {
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  28% {
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  30% {
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  38% {
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  40% {
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  48% {
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  50% {
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  58% {
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  60% {
+    -webkit-transform: rotate(-24deg);
+    -ms-transform: rotate(-24deg);
+    transform: rotate(-24deg);
+  }
+
+  68% {
+    -webkit-transform: rotate(24deg);
+    -ms-transform: rotate(24deg);
+    transform: rotate(24deg);
+  }
+
+  75%, 100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.faa-wrench.anime,
+.faa-wrench.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-wrench {
+  -webkit-animation: wrench 2.5s ease infinite;
+  animation: wrench 2.5s ease infinite;
+  transform-origin-x: 90%;
+  transform-origin-y: 35%;
+  transform-origin-z: initial;
+}
+
+.faa-wrench.anime.faa-fast,
+.faa-wrench.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-wrench.faa-fast {
+  -webkit-animation: wrench 1.2s ease infinite;
+  animation: wrench 1.2s ease infinite;
+}
+
+.faa-wrench.anime.faa-slow,
+.faa-wrench.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-wrench.faa-slow {
+  -webkit-animation: wrench 3.7s ease infinite;
+  animation: wrench 3.7s ease infinite;
+}
+
+/* BELL */
+
+@-webkit-keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20%, 100% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+@keyframes ring {
+  0% {
+    -webkit-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+  }
+
+  2% {
+    -webkit-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    transform: rotate(15deg);
+  }
+
+  4% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  6% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  8% {
+    -webkit-transform: rotate(-22deg);
+    -ms-transform: rotate(-22deg);
+    transform: rotate(-22deg);
+  }
+
+  10% {
+    -webkit-transform: rotate(22deg);
+    -ms-transform: rotate(22deg);
+    transform: rotate(22deg);
+  }
+
+  12% {
+    -webkit-transform: rotate(-18deg);
+    -ms-transform: rotate(-18deg);
+    transform: rotate(-18deg);
+  }
+
+  14% {
+    -webkit-transform: rotate(18deg);
+    -ms-transform: rotate(18deg);
+    transform: rotate(18deg);
+  }
+
+  16% {
+    -webkit-transform: rotate(-12deg);
+    -ms-transform: rotate(-12deg);
+    transform: rotate(-12deg);
+  }
+
+  18% {
+    -webkit-transform: rotate(12deg);
+    -ms-transform: rotate(12deg);
+    transform: rotate(12deg);
+  }
+
+  20%, 100% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+}
+
+.faa-ring.anime,
+.faa-ring.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-ring {
+  -webkit-animation: ring 2s ease infinite;
+  animation: ring 2s ease infinite;
+  transform-origin-x: 50%;
+  transform-origin-y: 0px;
+  transform-origin-z: initial;
+}
+
+.faa-ring.anime.faa-fast,
+.faa-ring.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-ring.faa-fast {
+  -webkit-animation: ring 1s ease infinite;
+  animation: ring 1s ease infinite;
+}
+
+.faa-ring.anime.faa-slow,
+.faa-ring.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-ring.faa-slow {
+  -webkit-animation: ring 3s ease infinite;
+  animation: ring 3s ease infinite;
+}
+
+/* VERTICAL */
+
+@-webkit-keyframes vertical {
+  0% {
+    -webkit-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+
+  4% {
+    -webkit-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+
+  8% {
+    -webkit-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+
+  12% {
+    -webkit-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+
+  16% {
+    -webkit-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+
+  20% {
+    -webkit-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+
+  22%, 100% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+@keyframes vertical {
+  0% {
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+
+  4% {
+    -webkit-transform: translate(0,3px);
+    -ms-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+
+  8% {
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+
+  12% {
+    -webkit-transform: translate(0,3px);
+    -ms-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+
+  16% {
+    -webkit-transform: translate(0,-3px);
+    -ms-transform: translate(0,-3px);
+    transform: translate(0,-3px);
+  }
+
+  20% {
+    -webkit-transform: translate(0,3px);
+    -ms-transform: translate(0,3px);
+    transform: translate(0,3px);
+  }
+
+  22%, 100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+.faa-vertical.anime,
+.faa-vertical.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-vertical {
+  -webkit-animation: vertical 2s ease infinite;
+  animation: vertical 2s ease infinite;
+}
+
+.faa-vertical.anime.faa-fast,
+.faa-vertical.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-vertical.faa-fast {
+  -webkit-animation: vertical 1s ease infinite;
+  animation: vertical 1s ease infinite;
+}
+
+.faa-vertical.anime.faa-slow,
+.faa-vertical.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-vertical.faa-slow {
+  -webkit-animation: vertical 4s ease infinite;
+  animation: vertical 4s ease infinite;
+}
+
+/* HORIZONTAL */
+
+@-webkit-keyframes horizontal {
+  0% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  36%, 100% {
+    -webkit-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+@keyframes horizontal {
+  0% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  6% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  12% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  18% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  24% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+
+  30% {
+    -webkit-transform: translate(5px,0);
+    -ms-transform: translate(5px,0);
+    transform: translate(5px,0);
+  }
+
+  36%, 100% {
+    -webkit-transform: translate(0,0);
+    -ms-transform: translate(0,0);
+    transform: translate(0,0);
+  }
+}
+
+.faa-horizontal.anime,
+.faa-horizontal.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-horizontal {
+  -webkit-animation: horizontal 2s ease infinite;
+  animation: horizontal 2s ease infinite;
+}
+
+.faa-horizontal.anime.faa-fast,
+.faa-horizontal.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-horizontal.faa-fast {
+  -webkit-animation: horizontal 1s ease infinite;
+  animation: horizontal 1s ease infinite;
+}
+
+.faa-horizontal.anime.faa-slow,
+.faa-horizontal.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-horizontal.faa-slow {
+  -webkit-animation: horizontal 3s ease infinite;
+  animation: horizontal 3s ease infinite;
+}
+
+/* FLASHING */
+
+@-webkit-keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+@keyframes flash {
+  0%, 100%, 50% {
+    opacity: 1;
+  }
+
+  25%, 75% {
+    opacity: 0;
+  }
+}
+
+.faa-flash.anime,
+.faa-flash.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-flash {
+  -webkit-animation: flash 2s ease infinite;
+  animation: flash 2s ease infinite;
+}
+
+.faa-flash.anime.faa-fast,
+.faa-flash.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-flash.faa-fast {
+  -webkit-animation: flash 1s ease infinite;
+  animation: flash 1s ease infinite;
+}
+
+.faa-flash.anime.faa-slow,
+.faa-flash.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-flash.faa-slow {
+  -webkit-animation: flash 3s ease infinite;
+  animation: flash 3s ease infinite;
+}
+
+/* BOUNCE */
+
+@-webkit-keyframes bounce {
+  0%, 10%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+@keyframes bounce {
+  0%, 10%, 20%, 50%, 80%, 100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+
+  60% {
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
+  }
+}
+
+.faa-bounce.anime,
+.faa-bounce.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-bounce {
+  -webkit-animation: bounce 2s ease infinite;
+  animation: bounce 2s ease infinite;
+}
+
+.faa-bounce.anime.faa-fast,
+.faa-bounce.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-bounce.faa-fast {
+  -webkit-animation: bounce 1s ease infinite;
+  animation: bounce 1s ease infinite;
+}
+
+.faa-bounce.anime.faa-slow,
+.faa-bounce.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-bounce.faa-slow {
+  -webkit-animation: bounce 3s ease infinite;
+  animation: bounce 3s ease infinite;
+}
+
+/* SPIN */
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(359deg);
+    -ms-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+
+.faa-spin.anime,
+.faa-spin.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-spin {
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+.faa-spin.anime.faa-fast,
+.faa-spin.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-spin.faa-fast {
+  -webkit-animation: spin 0.7s linear infinite;
+  animation: spin 0.7s linear infinite;
+}
+
+.faa-spin.anime.faa-slow,
+.faa-spin.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-spin.faa-slow {
+  -webkit-animation: spin 2.2s linear infinite;
+  animation: spin 2.2s linear infinite;
+}
+
+/* FLOAT */
+
+@-webkit-keyframes float {
+  0% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes float {
+  0% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  50% {
+    -webkit-transform: translateY(-6px);
+    -ms-transform: translateY(-6px);
+    transform: translateY(-6px);
+  }
+
+  100% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.faa-float.anime,
+.faa-float.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-float {
+  -webkit-animation: float 2s linear infinite;
+  animation: float 2s linear infinite;
+}
+
+.faa-float.anime.faa-fast,
+.faa-float.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-float.faa-fast {
+  -webkit-animation: float 1s linear infinite;
+  animation: float 1s linear infinite;
+}
+
+.faa-float.anime.faa-slow,
+.faa-float.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-float.faa-slow {
+  -webkit-animation: float 3s linear infinite;
+  animation: float 3s linear infinite;
+}
+
+/* PULSE */
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+
+  50% {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+  }
+
+  100% {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+}
+
+.faa-pulse.anime,
+.faa-pulse.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-pulse {
+  -webkit-animation: pulse 2s linear infinite;
+  animation: pulse 2s linear infinite;
+}
+
+.faa-pulse.anime.faa-fast,
+.faa-pulse.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-pulse.faa-fast {
+  -webkit-animation: pulse 1s linear infinite;
+  animation: pulse 1s linear infinite;
+}
+
+.faa-pulse.anime.faa-slow,
+.faa-pulse.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-pulse.faa-slow {
+  -webkit-animation: pulse 3s linear infinite;
+  animation: pulse 3s linear infinite;
+}
+
+/* SHAKE */
+
+.faa-shake.anime,
+.faa-shake.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-shake {
+  -webkit-animation: wrench 2.5s ease infinite;
+  animation: wrench 2.5s ease infinite;
+}
+
+.faa-shake.anime.faa-fast,
+.faa-shake.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-shake.faa-fast {
+  -webkit-animation: wrench 1.2s ease infinite;
+  animation: wrench 1.2s ease infinite;
+}
+
+.faa-shake.anime.faa-slow,
+.faa-shake.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-shake.faa-slow {
+  -webkit-animation: wrench 3.7s ease infinite;
+  animation: wrench 3.7s ease infinite;
+}
+
+/* TADA */
+
+@-webkit-keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale(.9) rotate(-8deg);
+    transform: scale(.9) rotate(-8deg);
+  }
+
+  30%, 50%, 70% {
+    -webkit-transform: scale(1.3) rotate(8deg);
+    transform: scale(1.3) rotate(8deg);
+  }
+
+  40%, 60% {
+    -webkit-transform: scale(1.3) rotate(-8deg);
+    transform: scale(1.3) rotate(-8deg);
+  }
+
+  80%, 100% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+@keyframes tada {
+  0% {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+  }
+
+  10%, 20% {
+    -webkit-transform: scale(.9) rotate(-8deg);
+    -ms-transform: scale(.9) rotate(-8deg);
+    transform: scale(.9) rotate(-8deg);
+  }
+
+  30%, 50%, 70% {
+    -webkit-transform: scale(1.3) rotate(8deg);
+    -ms-transform: scale(1.3) rotate(8deg);
+    transform: scale(1.3) rotate(8deg);
+  }
+
+  40%, 60% {
+    -webkit-transform: scale(1.3) rotate(-8deg);
+    -ms-transform: scale(1.3) rotate(-8deg);
+    transform: scale(1.3) rotate(-8deg);
+  }
+
+  80%, 100% {
+    -webkit-transform: scale(1) rotate(0);
+    -ms-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+.faa-tada.anime,
+.faa-tada.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-tada {
+  -webkit-animation: tada 2s linear infinite;
+  animation: tada 2s linear infinite;
+}
+
+.faa-tada.anime.faa-fast,
+.faa-tada.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-tada.faa-fast {
+  -webkit-animation: tada 1s linear infinite;
+  animation: tada 1s linear infinite;
+}
+
+.faa-tada.anime.faa-slow,
+.faa-tada.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-tada.faa-slow {
+  -webkit-animation: tada 3s linear infinite;
+  animation: tada 3s linear infinite;
+}
+
+/* PASSING */
+
+@-webkit-keyframes passing {
+  0% {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
+@keyframes passing {
+  0% {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+    opacity: 0;
+  }
+}
+
+.faa-passing.anime,
+.faa-passing.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-passing {
+  -webkit-animation: passing 2s linear infinite;
+  animation: passing 2s linear infinite;
+}
+
+.faa-passing.anime.faa-fast,
+.faa-passing.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-passing.faa-fast {
+  -webkit-animation: passing 1s linear infinite;
+  animation: passing 1s linear infinite;
+}
+
+.faa-passing.anime.faa-slow,
+.faa-passing.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-passing.faa-slow {
+  -webkit-animation: passing 3s linear infinite;
+  animation: passing 3s linear infinite;
+}
+
+/* PASSING REVERSE */
+
+@-webkit-keyframes passing-reverse {
+  0% {
+    -webkit-transform: translateX(50%);
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+
+@keyframes passing-reverse {
+  0% {
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+    opacity: 0;
+  }
+
+  50% {
+    -webkit-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  100% {
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    opacity: 0;
+  }
+}
+
+.faa-passing-reverse.anime,
+.faa-passing-reverse.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-passing-reverse {
+  -webkit-animation: passing-reverse 2s linear infinite;
+  animation: passing-reverse 2s linear infinite;
+}
+
+.faa-passing-reverse.anime.faa-fast,
+.faa-passing-reverse.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-passing-reverse.faa-fast {
+  -webkit-animation: passing-reverse 1s linear infinite;
+  animation: passing-reverse 1s linear infinite;
+}
+
+.faa-passing-reverse.anime.faa-slow,
+.faa-passing-reverse.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-passing-reverse.faa-slow {
+  -webkit-animation: passing-reverse 3s linear infinite;
+  animation: passing-reverse 3s linear infinite;
+}
+
+/* WAVE */
+
+@-webkit-keyframes burst {
+  0% {
+    opacity: .6;
+  }
+
+  50% {
+    -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes burst {
+  0% {
+    opacity: .6;
+  }
+
+  50% {
+    -webkit-transform: scale(1.8);
+    -ms-transform: scale(1.8);
+    transform: scale(1.8);
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.faa-burst.anime,
+.faa-burst.anime-hover:hover,
+.faa-parent.anime-hover:hover > .faa-burst {
+  -webkit-animation: burst 2s infinite linear;
+  animation: burst 2s infinite linear;
+}
+
+.faa-burst.anime.faa-fast,
+.faa-burst.anime-hover.faa-fast:hover,
+.faa-parent.anime-hover:hover > .faa-burst.faa-fast {
+  -webkit-animation: burst 1s infinite linear;
+  animation: burst 1s infinite linear;
+}
+
+.faa-burst.anime.faa-slow,
+.faa-burst.anime-hover.faa-slow:hover,
+.faa-parent.anime-hover:hover > .faa-burst.faa-slow {
+  -webkit-animation: burst 3s infinite linear;
+  animation: burst 3s infinite linear;
+}
+#icon_anime {
+  float: left;
+  padding: 0 10px 5px 0;
+}

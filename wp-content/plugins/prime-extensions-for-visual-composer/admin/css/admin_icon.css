@@ -1,0 +1,365 @@
+
+.wpb-content-layouts .wpb-layout-element-button .icon-wpb-vc_extension_cq {
+    background-image: url(img/icon.png)!important;
+}
+.vc_element-icon.icon-wpb-vc_extension_cq{
+    background-image: url(img/icon.png)!important;
+}
+
+.icon-wpb-vc_extension_cq{
+	background-image: url(img/icon.png)!important;
+	background-position:0 0 !important;
+}
+.wpb_cq_vc_extension.wpb_content_element > .wpb_element_wrapper {
+	background-image: url(img/icon.png)!important;
+}
+/* Prime Accordion Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_iconaccordion {
+    background-image: url(img/icon_accordion.png)!important;
+    background-size: 32px;
+}
+
+.vc_element-icon.prime_iconaccordion{
+    background-image: url(img/icon_accordion.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_accordion.wpb_content_element > .wpb_element_wrapper {
+	background-image: url(img/icon_accordion.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Tooltip Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icontooltips {
+    background-image: url(img/icon_tooltips.png)!important;
+    background-size: 32px;
+}
+
+.vc_element-icon.prime_icontooltips{
+    background-image: url(img/icon_tooltips.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_tooltips.wpb_content_element > .wpb_element_wrapper {
+	background-image: url(img/icon_tooltips.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Animation Icon */
+.vc_general.vc_element-icon.prime_faanimation {
+    background-image: url(img/icon_faanimation.png)!important;
+    background-size: 32px;
+}
+.vc_general.vc_element-icon.prime_faanimation{
+    background-image: url(img/icon_faanimation.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_faanimation.wpb_content_element > .wpb_element_wrapper {
+	background-image: url(img/icon_faanimation.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Modal Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icondepthmodal {
+    background-image: url(img/icon_depthmodal.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icondepthmodal{
+    background-image: url(img/icon_depthmodal.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_depthmodal.wpb_content_element > .wpb_element_wrapper {
+	background-image: url(img/icon_depthmodal.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Testimonial Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icontestimonial {
+    background-image: url(img/icon_testimonial.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icontestimonial{
+    background-image: url(img/icon_testimonial.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_testimonial.wpb_content_element > .wpb_element_wrapper {
+	background-image: url(img/icon_testimonial.png)!important;
+    background-size: 32px;
+}
+
+/* Prime FlipBox Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_iconflipbox {
+    background-image: url(img/icon_flipbox.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_iconflipbox{
+    background-image: url(img/icon_flipbox.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_flipbox.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_flipbox.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Image Image Accordion Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_iconimageaccordion {
+    background-image: url(img/icon_imageaccordion.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_iconimageaccordion{
+    background-image: url(img/icon_imageaccordion.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_imageaccordion.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_imageaccordion.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Image Testimonial Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icontestimoniallist {
+    background-image: url(img/icon_testimoniallist.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icontestimoniallist{
+    background-image: url(img/icon_testimoniallist.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_testimoniallist.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_testimoniallist.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Pricing Table Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icon_pricing_table {
+    background-image: url(img/icon_pricing_table.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icon_pricing_table{
+    background-image: url(img/icon_pricing_table.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pricingtable.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_pricing_table.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Before After Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icon_beforeafter {
+    background-image: url(img/icon_beforeafter.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icon_beforeafter{
+    background-image: url(img/icon_beforeafter.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_beforeafter.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_beforeafter.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Content Block Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icon_contentblock {
+    background-image: url(img/icon_contentblock.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icon_contentblock{
+    background-image: url(img/icon_contentblock.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_contentblock.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_contentblock.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Ideal Hover Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icon_idealhover {
+    background-image: url(img/icon_idealhover.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icon_idealhover{
+    background-image: url(img/icon_idealhover.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_contentblock.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_idealhover.png)!important;
+    background-size: 32px;
+}
+
+
+/* Prime Page transaction Icon */
+.wpb-content-layouts .wpb-layout-element-button .prime_icon_pagetransaction {
+    background-image: url(img/icon_pagetrans.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icon_pagetransaction{
+    background-image: url(img/icon_pagetrans.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_pagetrans.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Modal */
+.wpb-content-layouts .wpb-layout-element-button .prime_icon_pr_modal {
+    background-image: url(img/icon_pr_modal.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_icon_pr_modal{
+    background-image: url(img/icon_pr_modal.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_pr_modal.png)!important;
+    background-size: 32px;
+}
+
+/* Prime scroll notification */
+.wpb-content-layouts .wpb-layout-element-button .prime_scroll_notification {
+    background-image: url(img/icon_scroll_notification.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_scroll_notification{
+    background-image: url(img/icon_scroll_notification.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_scroll_notification.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Massonary Gallery */
+.wpb-content-layouts .wpb-layout-element-button .prime_massonary_gallery {
+    background-image: url(img/icon_mas_gallery.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_massonary_gallery{
+    background-image: url(img/icon_mas_gallery.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_mas_gallery.png)!important;
+    background-size: 32px;
+}
+
+/* Prime TAB */
+.wpb-content-layouts .wpb-layout-element-button .prime_tab {
+    background-image: url(img/icon_tab.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_tab{
+    background-image: url(img/icon_tab.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_tab.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Flip BOX */
+.wpb-content-layouts .wpb-layout-element-button .prime_flipbox {
+    background-image: url(img/prime_flipbox_icon.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_flipbox{
+    background-image: url(img/prime_flipbox_icon.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/prime_flipbox_icon.png)!important;
+    background-size: 32px;
+}
+
+
+/* Prime Team Member */
+.wpb-content-layouts .wpb-layout-element-button .pr_team_member {
+    background-image: url(img/icon_team_member.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.pr_team_member{
+    background-image: url(img/icon_team_member.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_team_member.png)!important;
+    background-size: 32px;
+}
+
+/* Zoom Magnifying */
+.wpb-content-layouts .wpb-layout-element-button .prime_zoom_magnifying {
+    background-image: url(img/icon-magnifying-zoom.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_zoom_magnifying{
+    background-image: url(img/icon-magnifying-zoom.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon-magnifying-zoom.png)!important;
+    background-size: 32px;
+}
+
+/* Video Gallery */
+.wpb-content-layouts .wpb-layout-element-button .prime_video_gallery {
+    background-image: url(img/icon_video_gallery.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_video_gallery{
+    background-image: url(img/icon_video_gallery.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_video_gallery.png)!important;
+    background-size: 32px;
+}
+
+/* Box Shadow */
+.wpb-content-layouts .wpb-layout-element-button .prime_shadow_box {
+    background-image: url(img/shadow-box.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_shadow_box{
+    background-image: url(img/shadow-box.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/shadow-box.png)!important;
+    background-size: 32px;
+}
+
+/* Image Hotspot */
+.wpb-content-layouts .wpb-layout-element-button .prime_image_hotspot {
+    background-image: url(img/icon_hotspot.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.prime_image_hotspot{
+    background-image: url(img/icon_hotspot.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/icon_hotspot.png)!important;
+    background-size: 32px;
+}
+
+/* Prime Profile Card*/
+.wpb-content-layouts .wpb-layout-element-button .primeicon-profilecard {
+    background-image: url(img/primeicon-profilecard.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.primeicon-profilecard{
+    background-image: url(img/primeicon-profilecard.png)!important;
+    background-size: 32px;
+}
+.vc_element-icon.child-primeicon-profilecard{
+    background-image: url(img/child-primeicon-profilecard.png)!important;
+    background-size: 32px;
+}
+.wpb_cq_vc_extension_pagetransaction.wpb_content_element > .wpb_element_wrapper {
+    background-image: url(img/child-primeicon-profilecard.png)!important;
+    background-size: 32px;
+}
+
+.wpb-textarea_raw_html, .textarea_raw_html {
+  font-family: Arial!important;
+  color: #333!important;
+  font-size: 13px!important;
+  height: 90px;
+}

@@ -1,0 +1,744 @@
+/* Default CSS */
+
+.grayscale-hover .member-email, .grayscale-hover .member-website, .grayscale-hover .member-tel, .grayscale-hover .member-social .facebook {
+  background: red;
+}
+/* Team Member Style 1 CSS */
+
+.jag-tm-theme-1 .member-name,.jag-tm-theme-1 .member-name span {
+position:absolute;
+}
+
+.jag-tm-theme-1 .member-name {
+bottom:.125in;
+right:10px;
+font-size:.875pc;
+font-weight:700;
+border-radius:.020833333in;
+-webkit-border-radius:.020833333in;
+-moz-border-radius:.125pc;
+-o-border-radius:2px;
+background-color:#444;
+z-index:999;
+padding:3.75pt 14px;
+}
+
+.jag-tm-theme-1 li .member-img-wrap img {
+border-radius: 0;
+    box-shadow: none;
+display:inline;
+max-width:100%;
+width:100%;
+-webkit-transition:all .5s ease;
+-moz-transition:all .5s ease;
+-ms-transition:all .5s ease;
+-o-transition:all .5s ease;
+transition:all .5s ease;
+pointer:cursor;
+-webkit-filter:grayscale(0%);
+}
+
+.jag-tm-theme-1 .member-name span,.jag-tm-theme-1 .member-name {
+color:#fff;
+}
+
+.jag-tm-theme-1 .basic-info.style_icon a,.jag-tm-theme-1 li {
+display:inline-block;
+margin: 0;
+}
+.jag-tm-theme-1 .member-social a:hover i {
+opacity:.7;
+}
+
+.jag-tm-theme-1 .member-name span {
+top:90%;
+right:0;
+font-size:9.75pt;
+font-weight:300;
+white-space:nowrap;
+padding:2.25pt .625pc;
+}
+
+.jag-tm-theme-1 .member-social a.facebook i {
+background-color:#31a086;
+}
+
+.jag-tm-theme-1 li {
+box-sizing:border-box;
+vertical-align:top;
+text-align:left;
+}
+
+.jag-tm-theme-1 .basic-info.style_icon a {
+font-size:.1875in;
+border-image:none!important;
+border-color:currentColor!important;
+border-style:none!important;
+border-width:0!important;
+margin:0 .052083333in;
+}
+.jag-tm-theme-1 .member-social a i {
+background-color:transparent;
+width:1.75pc;
+height:1.75pc;
+line-height:21pt;
+text-align:center;
+display:inline-block;
+transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+font-size:1.1em;
+color:#fff;
+}
+
+.jag-tm-theme-1 .member-social a.linkedin i {
+background-color:#90cadd;
+}
+
+.jag-tm-theme-1 .member-detail,.jag-tm-theme-1 .member-email {
+display:block;
+font-size:.135416667in;
+}
+
+.jag-tm-theme-1 .member-detail {
+line-height:21px;
+padding:.145833333in 0 .3125pc;
+}
+
+.jag-tm-theme-1 {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.jag-tm-theme-1 .member-social a.twitter i {
+background-color:#63cdf1;
+}
+.jag-tm-theme-1 .member-social a.gplus i {
+background-color:#f16261;
+}
+
+.jag-tm-theme-1 .member-social.grayscale a i {
+background-color:#888;
+}
+
+.jag-tm-theme-1 .member-social a i,.jag-tm-theme-1 .member-name span {
+border-radius:.020833333in;
+}
+
+.jag-tm-theme-1 .member-email,.jag-tm-theme-1 .member-detail {
+color:#888;
+}
+
+
+.jag-tm-theme-1 .member-name span,.jag-tm-theme-1 .member-social a i {
+-webkit-border-radius:.020833333in;
+-moz-border-radius:.020833333in;
+-o-border-radius:.125pc;
+}
+
+.jag-tm-theme-1 li:hover .member-img-wrap img {
+-moz-transform:scale(1.03);
+-webkit-transform:scale(1.03);
+-o-transform:scale(1.03);
+-ms-transform:scale(1.03);
+transform:scale(1.03);
+}
+
+.jag-tm-theme-1 .member-email {
+border-bottom-width:.125pc;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+border-image:none;
+}
+
+.theme-red.jag-tm-theme-1 .member-website:hover,.theme-red.jag-tm-theme-1 .member-tel:hover,.theme-red.jag-tm-theme-1 .member-email:hover {
+color:#c40000;
+}
+
+.theme-red.jag-tm-theme-1 .member-tel:hover,.theme-red.jag-tm-theme-1 .member-website:hover,.theme-red.jag-tm-theme-1 .member-email:hover {
+border-color:#c40000;
+}
+
+.jag-tm-theme-1 .basic-info.style_icon {
+text-align:center;
+margin-top:7.5pt;
+}
+
+.jag-tm-theme-1 .member-website,.jag-tm-theme-1 .member-tel {
+color:#888;
+border-bottom-width:.125pc;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+border-image:none;
+}
+
+.jag-tm-theme-1 .member-tel,.jag-tm-theme-1 .member-website {
+font-size:13px;
+display: block;
+}
+
+.jag-tm-theme-1.grayscale-default li:hover .member-img-wrap img {
+filter:initial;
+-webkit-filter:grayscale(0);
+}
+.jag-tm-theme-1 .member-social a {
+margin-left:.020833333in;
+margin-right:1.5pt;
+}
+.theme-red.jag-tm-theme-1 .member-name span {
+background:#c40000;
+}
+
+.jag-tm-theme-1 .member-img-wrap {
+position:relative;
+-webkit-transition-delay:0;
+-webkit-transition-duration:.2s;
+-webkit-transition-property:all;
+-webkit-transition-timing-function:ease-in-out;
+box-sizing:border-box;
+display:block;
+transition-delay:0;
+transition-duration:.2s;
+transition-property:all;
+transition-timing-function:ease-in-out;
+transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+z-index: 1;
+}
+
+.jag-tm-theme-1 .member-social,.jag-tm-theme-1 li {
+margin-bottom:.15625in;
+}
+
+.jag-tm-theme-1 .member-social,.jag-tm-theme-1 .member-img-wrap {
+width:100%;
+}
+
+.jag-tm-theme-1 .member-img-wrap,.jag-tm-theme-1 .member-social {
+text-align:center;
+}
+
+.jag-tm-theme-1 .member-social {
+margin-top:5px;
+}
+
+.jag-tm-theme-1.grayscale-hover li:hover .member-img-wrap img,.jag-tm-theme-1.grayscale-default li .member-img-wrap img {
+filter:gray;
+-webkit-filter:grayscale(100%);
+}
+
+.jag-tm-theme-1 .member-email,.jag-tm-theme-1 .member-website,.jag-tm-theme-1 .member-tel,.jag-tm-theme-1 .member-social a {
+text-decoration:none;
+}
+
+/* TEAM Member Style 2 CSS */
+
+.jag-tm-theme-2 li .member-img-wrap img {
+	 border-radius: 0;
+    box-shadow: none;
+display:inline;
+max-width:100%;
+width:100%;
+-webkit-transition:all .5s ease;
+-moz-transition:all .5s ease;
+-ms-transition:all .5s ease;
+-o-transition:all .5s ease;
+transition:all .5s ease;
+pointer:cursor;
+-webkit-filter:grayscale(0%);
+}
+
+.jag-tm-theme-2 .member-name span,.jag-tm-theme-2 .member-name {
+position:absolute;
+}
+.jag-tm-theme-2 .member-name {
+bottom:12px;
+right:7.5pt;
+font-size:.145833333in;
+font-weight:700;
+border-radius:2px;
+-webkit-border-radius:.125pc;
+-moz-border-radius:.125pc;
+-o-border-radius:.125pc;
+background-color:#444;
+z-index:999;
+padding:3.75pt .145833333in;
+}
+
+.jag-tm-theme-2 .basic-info.style_icon a {
+display:inline-block;
+font-size:13.5pt;
+border-image:none;
+border-color:currentColor;
+border-style:none;
+border-width:0;
+margin:0 .052083333in;
+}
+
+.jag-tm-theme-2 {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.jag-tm-theme-2 .member-name,.jag-tm-theme-2 .member-name span {
+color:#fff;
+}
+
+.jag-tm-theme-2 .member-social a:hover i {
+opacity:.7;
+}
+
+.jag-tm-theme-2 .member-social a.facebook i {
+background-color:#507cbe;
+}
+
+.jag-tm-theme-2 .member-name span {
+top:90%;
+right:0;
+font-weight:300;
+-webkit-border-radius:.125pc;
+-moz-border-radius:1.5pt;
+-o-border-radius:1.5pt;
+white-space:nowrap;
+padding:.1875pc 7.5pt;
+}
+
+.jag-tm-theme-2 .member-social a i {
+background-color: #31a086;
+width:21pt;
+height:1.75pc;
+line-height:.291666667in;
+-webkit-border-radius:.020833333in;
+-moz-border-radius:2px;
+-o-border-radius:.125pc;
+transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+font-size:1.1em;
+color:#fff;
+}
+
+.jag-tm-theme-2 .member-social.grayscale a i {
+background-color:#888;
+}
+
+
+.jag-tm-theme-2 li:hover .member-img-wrap img {
+-moz-transform:scale(1.03);
+-webkit-transform:scale(1.03);
+-o-transform:scale(1.03);
+-ms-transform:scale(1.03);
+transform:scale(1.03);
+}
+
+.theme-dark-blue.jag-tm-theme-2 .member-tel:hover,.theme-dark-blue.jag-tm-theme-2 .member-email:hover,.theme-dark-blue.jag-tm-theme-2 .member-website:hover {
+border-bottom-color:#036;
+border-right-color:#036;
+}
+
+.jag-tm-theme-2 .member-detail,.jag-tm-theme-2 .member-name span,.jag-tm-theme-2 .member-email {
+font-size:.135416667in;
+}
+
+.jag-tm-theme-2 .member-detail {
+line-height:21px;
+clear:both;
+padding:10.5pt 0 5px;
+}
+
+
+.jag-tm-theme-2 .member-detail,.jag-tm-theme-2 li,.jag-tm-theme-2 .member-email {
+color:#888;
+}
+
+.jag-tm-theme-2 li {
+box-sizing:border-box;
+min-height:.010416667in;
+vertical-align:top;
+text-align:left;
+margin-bottom:15pt;
+ margin-left: 0;
+}
+
+.jag-tm-theme-2 .member-email {
+text-decoration:none;
+border-bottom-width:.020833333in;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+border-image:none;
+}
+
+.jag-tm-theme-2 .member-social a i,.jag-tm-theme-2 .basic-info.style_icon {
+text-align:center;
+}
+
+.jag-tm-theme-2 .member-name span,.jag-tm-theme-2 .member-social a i {
+border-radius:.125pc;
+}
+
+.theme-red.jag-tm-theme-2 .member-website:hover,.theme-red.jag-tm-theme-2 .member-tel:hover,.theme-red.jag-tm-theme-2 .member-email:hover {
+color:#c40000;
+}
+
+.theme-red.jag-tm-theme-2 .member-email:hover,.theme-red.jag-tm-theme-2 .member-tel:hover,.theme-red.jag-tm-theme-2 .member-website:hover {
+border-left-color:#c40000;
+border-right-color:#c40000;
+}
+
+.theme-red.jag-tm-theme-2 .member-email:hover,.theme-red.jag-tm-theme-2 .member-website:hover,.theme-red.jag-tm-theme-2 .member-tel:hover {
+border-bottom-color:#c40000;
+}
+
+.jag-tm-theme-2.grayscale-default li .member-img-wrap img,.jag-tm-theme-2.grayscale-hover li:hover .member-img-wrap img {
+filter:gray;
+}
+
+.jag-tm-theme-2 .member-website {
+display:block;
+border-bottom-width:.020833333in;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+border-image:none;
+}
+
+.jag-tm-theme-2.grayscale-hover li:hover .member-img-wrap img,.jag-tm-theme-2.grayscale-default li .member-img-wrap img {
+-webkit-filter:grayscale(100%);
+}
+
+.theme-red.jag-tm-theme-2 .member-website:hover,.theme-red.jag-tm-theme-2 .member-email:hover,.theme-red.jag-tm-theme-2 .member-tel:hover {
+border-top-color:#c40000;
+}
+
+.jag-tm-theme-2 li,.jag-tm-theme-2 .member-social a i {
+display:inline-block;
+}
+
+.jag-tm-theme-2 .member-tel,.jag-tm-theme-2 .member-website {
+text-decoration:none;
+}
+
+.jag-tm-theme-2 .member-website,.jag-tm-theme-2 .member-tel {
+color:#888;
+font-size:.135416667in;
+}
+
+
+.jag-tm-theme-2.grayscale-default li .member-img-wrap img {
+-webkit-transition:all .5s ease;
+-moz-transition:all .5s ease;
+-ms-transition:all .5s ease;
+-o-transition:all .5s ease;
+transition:all .5s ease;
+}
+.jag-tm-theme-2 .member-tel {
+border-bottom-width:.020833333in;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+border-image:none;
+}
+
+.jag-tm-theme-2 .member-img-wrap,.jag-tm-theme-2 .member-social a i {
+-o-transition:all .2s ease-in-out;
+}
+
+.jag-tm-theme-2 .member-img-wrap {
+position:relative;
+-webkit-transition-delay:0;
+-webkit-transition-duration:.2s;
+-webkit-transition-property:all;
+-webkit-transition-timing-function:ease-in-out;
+box-sizing:border-box;
+transition-delay:0;
+transition-duration:.2s;
+transition-property:all;
+transition-timing-function:ease-in-out;
+transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+width:80%;
+}
+
+.jag-tm-theme-2.grayscale-default li:hover .member-img-wrap img {
+filter:initial;
+-webkit-filter:grayscale(0);
+}
+
+.theme-orange.jag-tm-theme-2 .member-name span {
+background:#f90;
+}
+
+.jag-tm-theme-2 .member-social a {
+margin-left:0;
+margin-right:0;
+text-decoration:none;
+margin-bottom:.03125in;
+}
+.theme-red.jag-tm-theme-2 .member-name span {
+background:#c40000;
+}
+
+.jag-tm-theme-2 .member-social {
+margin-top:0;
+text-align:center;
+width:auto;
+margin-bottom:.15625in;
+position:absolute;
+right:10%;
+top:0;
+}
+
+.jag-tm-theme-2 .basic-info.style_icon {
+margin-top:7.5pt;
+}
+
+.jag-tm-theme-2 .member-detail,.jag-tm-theme-2 .member-email,.jag-tm-theme-2 .member-social a i,.jag-tm-theme-2 .member-tel,.jag-tm-theme-2 .member-social a,.jag-tm-theme-2 .member-img-wrap,.jag-tm-theme-2 .member-img-wrap {
+display:block;
+}
+
+/* TEAM MEMBER STYLE 3 CSS */
+
+.theme-orange.jag-tm-theme-5 .member-website:hover,.theme-orange.jag-tm-theme-5 .member-email:hover,.theme-orange.jag-tm-theme-5 .member-tel:hover {
+color:#f90;
+border-right-color:#f90;
+}
+
+.jag-tm-theme-5 li .member-img-wrap img {
+display:inline;
+max-width:90%;
+width:100%;
+-webkit-transition:all .5s ease;
+-moz-transition:all .5s ease;
+-ms-transition:all .5s ease;
+-o-transition:all .5s ease;
+transition:all .5s ease;
+pointer:cursor;
+-webkit-filter:grayscale(0%);
+border-radius:50%;
+border-left-style:solid;
+border-right-style:solid;
+border-top-style:solid;
+border-left-color:#efefef;
+border-right-color:#efefef;
+border-top-color:#efefef;
+border-width:.104166667in;
+}
+
+.jag-tm-theme-5 .member-name,.jag-tm-theme-5 .basic-info.style_icon a {
+display:inline-block;
+}
+
+.jag-tm-theme-5 .basic-info.style_icon a {
+font-size:1.125pc;
+border-image:none;
+border-color:currentColor;
+border-style:none;
+border-width:0;
+margin:0 .052083333in;
+}
+
+.jag-tm-theme-5 .member-name {
+font-size:.145833333in;
+font-weight:700;
+}
+
+.jag-tm-theme-5 .member-social a:hover i {
+opacity:.7;
+}
+
+.jag-tm-theme-5 {
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.jag-tm-theme-5 .member-social a.facebook i {
+background-color:#507cbe;
+}
+
+.jag-tm-theme-5 .member-name span {
+color:#fff;
+font-weight:300;
+display:block;
+padding:1.5pt .104166667in;
+}
+.jag-tm-theme-5 .member-detail {
+line-height:1.3125pc;
+padding:10.5pt 0 5px;
+}
+
+.jag-tm-theme-5 .member-social a.linkedin i {
+background-color:#90cadd;
+}
+
+.jag-tm-theme-5 .member-social a.twitter i {
+background-color:#63cdf1;
+}
+
+.jag-tm-theme-5 .member-detail,.jag-tm-theme-5 .member-name span,.jag-tm-theme-5 .member-email,.jag-tm-theme-5 .member-website {
+font-size:.135416667in;
+}
+
+.jag-tm-theme-5 .member-email,.jag-tm-theme-5 .member-website {
+text-decoration:none;
+}
+.jag-tm-theme-5 .member-email {
+border-bottom-width:.020833333in;
+border-image:none;
+}
+
+.jag-tm-theme-5 .member-social a.gplus i {
+background-color:#f16261;
+}
+
+.jag-tm-theme-5 .member-email,.jag-tm-theme-5 li .member-img-wrap img {
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+}
+
+.jag-tm-theme-5.grayscale-default li:hover .member-img-wrap img {
+filter:initial;
+-webkit-filter:grayscale(0);
+}
+
+.jag-tm-theme-5 li {
+box-sizing:border-box;
+display:inline-block;
+vertical-align:top;
+text-align:left;
+margin: 0;
+}
+.jag-tm-theme-5 .member-website {
+border-bottom-width:.020833333in;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+border-image:none;
+}
+
+.jag-tm-theme-5 .basic-info.style_icon {
+text-align:center;
+margin-top:10px;
+}
+
+.jag-tm-theme-5 .member-social.grayscale a i {
+background-color:#888;
+}
+
+.jag-tm-theme-5 .member-tel {
+text-decoration:none;
+color:#888;
+font-size:.135416667in;
+border-bottom-width:.020833333in;
+border-bottom-style:solid;
+border-bottom-color:#efefef;
+}
+
+.theme-red.jag-tm-theme-5 .member-website:hover,.theme-red.jag-tm-theme-5 .member-tel:hover,.theme-red.jag-tm-theme-5 .member-email:hover {
+color:#c40000;
+}
+
+.jag-tm-theme-5 li:hover .member-img-wrap img {
+-ms-transform:rotate(7deg);
+-webkit-transform:rotate(7deg);
+transform:rotate(7deg);
+}
+
+.theme-red.jag-tm-theme-5 .member-tel:hover,.theme-red.jag-tm-theme-5 .member-email:hover,.theme-red.jag-tm-theme-5 .member-website:hover {
+border-left-color:#c40000;
+}
+
+.theme-red.jag-tm-theme-5 .member-tel:hover,.theme-red.jag-tm-theme-5 .member-website:hover,.theme-red.jag-tm-theme-5 .member-email:hover {
+border-bottom-color:#c40000;
+}
+
+.theme-red.jag-tm-theme-5 .member-website:hover,.theme-red.jag-tm-theme-5 .member-email:hover,.theme-red.jag-tm-theme-5 .member-tel:hover {
+border-right-color:#c40000;
+border-top-color:#c40000;
+}
+
+.jag-tm-theme-5 li .member-img-wrap img,.jag-tm-theme-5 .member-tel {
+border-image:none;
+}
+
+.jag-tm-theme-5 .member-img-wrap {
+position:relative;
+-webkit-transition-delay:0;
+-webkit-transition-duration:.2s;
+-webkit-transition-property:all;
+-webkit-transition-timing-function:ease-in-out;
+box-sizing:border-box;
+display:block;
+transition-delay:0;
+transition-duration:.2s;
+transition-property:all;
+transition-timing-function:ease-in-out;
+}
+
+.jag-tm-theme-5 .member-social a i,.jag-tm-theme-5 .member-name span {
+border-radius:.020833333in;
+-webkit-border-radius:1.5pt;
+-moz-border-radius:.020833333in;
+}
+
+.jag-tm-theme-5 .member-social a i {
+background-color:transparent;
+color:#aaa;
+width:28px;
+height:.291666667in;
+line-height:1.75pc;
+display:inline-block;
+font-size:1.1em;
+}
+
+.jag-tm-theme-5 .member-img-wrap,.jag-tm-theme-5 .member-social a i {
+text-align:center;
+-webkit-transition:all .2s ease-in-out;
+}
+.theme-red.jag-tm-theme-5 .member-name span {
+background:#c40000;
+}
+.jag-tm-theme-5 .member-social a i,.jag-tm-theme-5 .member-img-wrap {
+transition:all .2s ease-in-out;
+-moz-transition:all .2s ease-in-out;
+-o-transition:all .2s ease-in-out;
+}
+.jag-tm-theme-5 .member-img-wrap,.jag-tm-theme-5 .member-social {
+width:100%;
+}
+
+.jag-tm-theme-5 .member-social {
+margin-top:.3125pc;
+text-align:center;
+margin-bottom:11.25pt;
+}
+
+.jag-tm-theme-5 .member-name span,.jag-tm-theme-5 .member-social a i {
+-o-border-radius:.125pc;
+}
+
+.jag-tm-theme-5 .member-social a i {
+color:#fff;
+}
+
+.jag-tm-theme-5 .member-social a {
+margin-left:1.5pt;
+margin-right:1.5pt;
+text-decoration:none;
+}
+
+.jag-tm-theme-5.grayscale-hover li:hover .member-img-wrap img,.jag-tm-theme-5.grayscale-default li .member-img-wrap img {
+filter:gray;
+-webkit-filter:grayscale(100%);
+}
+
+.jag-tm-theme-5 .member-name,.jag-tm-theme-5 .member-detail,.jag-tm-theme-5 .member-website,.jag-tm-theme-5 .member-email {
+color:#888;
+}
+
+.jag-tm-theme-5 .member-email,.jag-tm-theme-5 .member-detail,.jag-tm-theme-5 .member-tel,.jag-tm-theme-5 .member-website {
+display:block;
+}
